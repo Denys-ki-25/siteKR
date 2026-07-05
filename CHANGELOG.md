@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title"><title id="title">LinkedIn</title><path fill="#fff" d="M5.3 8.4H2V22h3.3V8.4ZM3.65 2A1.93 1.93 0 1 0 3.65 5.86 1.93 1.93 0 0 0 3.65 2ZM22 13.75c0-4.1-2.19-6-5.11-6-2.35 0-3.4 1.29-3.99 2.2V8.4H9.6V22h3.3v-6.73c0-1.77.34-3.49 2.54-3.49 2.17 0 2.2 2.03 2.2 3.61V22H22v-8.25Z"/></svg>
