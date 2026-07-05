@@ -1,1 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title"><title id="title">Twitter</title><path fill="#fff" d="M22.4 5.8c-.8.4-1.6.6-2.5.7.9-.6 1.6-1.4 1.9-2.5-.8.5-1.8.9-2.8 1.1A4.3 4.3 0 0 0 11.6 9c0 .3 0 .7.1 1C8.1 9.8 4.9 8.1 2.8 5.5c-.4.6-.6 1.4-.6 2.1 0 1.5.8 2.8 1.9 3.6-.7 0-1.3-.2-1.9-.5v.1c0 2.1 1.5 3.8 3.4 4.2-.4.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.7 2.1 2.9 4 2.9a8.7 8.7 0 0 1-5.4 1.9H1.2A12.3 12.3 0 0 0 7.9 22c8 0 12.4-6.6 12.4-12.4v-.6c.8-.6 1.5-1.3 2.1-2.2Z"/></svg>
+# Contrast Landing Page
+
+Курсова робота Яцківа Дениса Руслановича: адаптивний односторінковий сайт за Figma-макетом Contrast.
+
+## Структура проєкту
+
+```text
+Yatskiv_Contrast_project/
+  index.html
+  README.md
+  CHANGELOG.md
+  decomposition.md
+  .nojekyll
+  .github/workflows/pages.yml
+  assets/
+    css/style.css
+    js/main.js
+    img/
+      webinar-stage.png
+      ai-preview.png
+      engagement-preview.png
+      feature-cloud.png
+      logos/
+      social/
+        linkedin.svg
+        youtube.svg
+        x.svg
+        dribbble.svg
+```
+
+## Секції сторінки
+
+- `header` - логотип Contrast як зображення, навігація та CTA-кнопки.
+- `hero` - головний екран і зображення інтерфейсу вебінару.
+- `social-proof` - аватари та SVG-логотипи клієнтів.
+- `ai-section` - блок AI-перепакування контенту.
+- `engagement` - сценарії утримання аудиторії та окреме preview-зображення.
+- `feature-cloud` - мозаїка можливостей одним зображенням `feature-cloud.png`.
+- `final-cta` - фінальний заклик до дії.
+- `site-footer` - футер із правильними SVG-іконками LinkedIn, YouTube, Twitter та Dribbble.
+
+## GitHub Pages
+
+Сайт статичний і не потребує збірки. Workflow `.github/workflows/pages.yml` публікує вміст кореня репозиторію через GitHub Actions. У налаштуваннях репозиторію потрібно вибрати `Settings -> Pages -> Build and deployment -> Source: GitHub Actions`.
